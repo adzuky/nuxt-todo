@@ -1,0 +1,20 @@
+{
+  "name": "nuxt-todo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "webserver": "http-server ./dist -o",
+    "deploy": "push-dir --dir=dist --branch=gh-pages --allow-unclean"
+  },
+  "dependencies": {
+    "core-js": "^3.8.3",
+    "http-server": "^0.12.3",
+    "nuxt": "^2.14.12",
+    "push-dir": "^0.4.1"
+  },
+  "devDependencies": {}
+}
